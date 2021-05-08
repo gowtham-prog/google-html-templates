@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search</title>
+        <style>
+            #foo{
+                height:45px;
+                width:500px;
+                padding-left:20px;
+                font-size:14px;
+                outline:none;
+                border-radius:30px;
+                border:1px solid #dcdcdc;
+                text-align:left;
+            }
+            .logo{
+                   margin-top:200px;
+                   margin-bottom:20px;
+                   color:blue;
+            }
+            .other{
+                text-align:right;
+            }
+            .other>a{
+                padding-right: 7px;
+            }
+            .other>a:hover{
+                color:purple;
+            }
+            #button{
+                padding:10px 20px;
+                border:none;
+                margin:5px;
+                font-size:15px;
+                border-radius:4px;
+                outline:none;
+                margin-top: 30px;
+            }
+            #button:hover{
+               border:1px solid #fcfcfc;
+            }
+            #button2{
+                padding:10px 20px;
+                border:none;
+                margin:5px;
+                font-size:15px;
+                border-radius:4px;
+                outline:none;
+                margin-top: 30px;
+            }
+            #button2:hover{
+               border:1px solid #fcfcfc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="other">
+            <a href="googleimg.html"style="color:blue">Google Image Search</a>
+            <a href="googleadv.html"style="color:blue">Google Advance Search</a>
+         </div>
+        <center>
+            <div class="logo">
+                <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">images
+              </div>
+            <form method="get" action="http://images.google.com/images">
+                <input id="foo" type="text" name="q" placeholder="Search Google or Enter URL"><br>
+                <input id="button" type="submit" value="Google search">
+                <input id="button2" type="submit" value="I`m Feeling Lucky">
+            </form>
+        </center>
+    </body>
+</html>
